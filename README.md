@@ -10,7 +10,7 @@
 
 ## Table of Contents
 1. [Requirements](#requirements) to install on your system
-2. Steps for how to generate dataset and training the [model](COVID_19_Detection_from_Chest_X_Ray_Images_Using_Deep_Learning.ipynb)
+2. Steps for how to generate dataset and training the [model](model.ipynb)
 3. [Results](#results)
 4. [Links to google colab](https://colab.research.google.com/drive/18e1Ou3PJxSbzcnGdvakvvoP0LxQ29b8u?usp=sharing)
 
