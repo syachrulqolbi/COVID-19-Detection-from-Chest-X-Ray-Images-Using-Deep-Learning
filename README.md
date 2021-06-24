@@ -31,7 +31,7 @@ Additional requirements to generate dataset:
 * Patoolib 1.12
 
 ## Results
-These are the final results for the models.
+These are the results for our models.
 
 ### Covid Model (Positive/Negative)
 <div class="tg-wrap"><table class="tg">
