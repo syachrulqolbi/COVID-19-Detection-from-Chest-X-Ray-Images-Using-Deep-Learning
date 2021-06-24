@@ -10,24 +10,25 @@
 
 ## Table of Contents
 1. [Requirements](#requirements) to install on your system
-2. How to [generate COVIDx dataset](docs/COVIDx.md) Steps for [training, evaluation and inference](docs/train_eval_inference.md) of COVIDNet
+2. Steps for how to generate dataset and training the model(docs/train_eval_inference.md)
 3. [Results](#results)
-4. [Links to google colab](docs/models.md)
+4. [Links to google colab](https://colab.research.google.com/drive/18e1Ou3PJxSbzcnGdvakvvoP0LxQ29b8u?usp=sharing)
 
 ## Requirements
 
 The main requirements are listed below:
 
 * Tested with Tensorflow 2.5.0
-* Python 3.6
-* Numpy
-* Matplotlib
+* Python 3.7.10
+* Numpy 1.19.5
+* Matplotlib 3.2.2
 
 Additional requirements to generate dataset:
 
+* Kaggle
 * Shutil
-* Pandas
-* Patoolib
+* Pandas 1.1.5
+* Patoolib 1.12
 
 ## Results
 These are the final results for the models.
