@@ -5,7 +5,7 @@
 
 ## Team Member
 * Syachrul Qolbi Nur Septi
-* Raihan B.
+* Raihan Badrahaadipura
 * Julio Fachrel
 
 ## Table of Contents
