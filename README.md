@@ -43,8 +43,8 @@ These are the results for our models.
     <td class="tg-7btt">Val_Accuracy</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">99.02</td>
-    <td class="tg-c3ow">94.18</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
   </tr>
 </table></div>
 
@@ -58,7 +58,7 @@ These are the results for our models.
     <td class="tg-7btt">Val_Accuracy</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">98.82</td>
-    <td class="tg-c3ow">92.91</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
   </tr>
 </table></div>
