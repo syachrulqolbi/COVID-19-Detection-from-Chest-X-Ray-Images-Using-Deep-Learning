@@ -82,19 +82,9 @@ The following packages and versions are required to run the project:
 | Accuracy     | 99.71%|
 | Val_Accuracy | 95.12%|
 
-### Visualization
-#### Loss
-![Training vs Validation Loss](images/loss_plot.png)
-
-#### Accuracy
-![Training vs Validation Accuracy](images/accuracy_plot.png)
-
 ## Contributing Members
 
 **Team Members**
-- Syachrul Qolbi Nur Septi
-- Raihan Badrahaadipura
-- Julio Fachrel
-
----
-For more details, refer to the code and notebook provided in the repository. Contributions and suggestions are welcome!
+* [Syachrul Qolbi Nur Septi](https://www.linkedin.com/in/syachrulqolbi)  
+* [Raihan Badrahaadipura](https://www.linkedin.com/in/raihan-b-536a10132)  
+* [Julio Fachrel](https://www.linkedin.com/in/julio-fachrel)
