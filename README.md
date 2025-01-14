@@ -1,6 +1,6 @@
 # COVID-19 Detection from Chest X-Ray Images Using Deep Learning
 
-#### <span style="color: green; font-weight: bold;">Project Status: In Progress</span>
+#### Project Status: Done
 
 ## Project Intro/Objective
 
