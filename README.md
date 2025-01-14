@@ -14,29 +14,30 @@ The purpose of this project is to develop a system for detecting COVID-19 from c
 
 ## Technologies
 - Python
-- TensorFlow
-- Numpy
-- Matplotlib
-- Pandas
+- TensorFlow 2.5.0
+- Numpy 1.19.5
+- Matplotlib 3.2.2
+- Pandas 1.1.5
 - Kaggle API
 - Patool
+- Shutil
 
 ## Project Description
 
 This project involves processing chest X-ray images from the **COVID-19 Radiography Database**. The following steps are implemented:
 
-1. **Dataset Preparation**: Fetching and organizing the COVID-19 Radiography Database using the Kaggle API.
-2. **Preprocessing**: Performing data augmentation and ensuring data readiness for model training.
-3. **Model Training**: Building and training deep learning models to classify images.
+1. **Dataset Preparation**: Fetching and organizing the COVID-19 Radiography Database using the Kaggle API and extracting the dataset with Patool.
+2. **Preprocessing**: Performing data augmentation and ensuring data readiness for model training. Images are resized to 128x128 pixels, and training and validation datasets are split with a 70-30 ratio.
+3. **Model Building**: Using a Convolutional Neural Network (CNN) architecture with varying configurations for binary (COVID-19 Positive/Negative) and categorical (Normal/Pneumonia/COVID) classification tasks.
 4. **Evaluation**: Assessing the model's performance through accuracy and validation accuracy metrics.
-5. **Results Visualization**: Presenting the results of model performance.
+5. **Visualization**: Plotting training vs validation loss and accuracy to analyze the model's performance.
 
 ## Dataset
 The dataset used in this project is the **COVID-19 Radiography Database**, which can be accessed at [Kaggle](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database).
 
 ## Directory Structure
 ```
-├── model.ipynb        <- Jupyter Notebook containing the code for dataset generation, model training, and evaluation.
+├── model.ipynb        <- Jupyter Notebook containing the code for dataset preparation, model training, and evaluation.
 ├── README.md          <- Project documentation and instructions.
 ```
 
@@ -58,28 +59,35 @@ The following packages and versions are required to run the project:
 - Kaggle
 - Shutil
 - Pandas 1.1.5
-- Patoolib 1.12
+- Patool 1.12
 
 ### Setup Instructions
 1. Install the required Python packages:
    ```bash
    pip install tensorflow==2.5.0 numpy==1.19.5 matplotlib==3.2.2 pandas==1.1.5 kaggle patool
    ```
-2. Follow the instructions in the [model.ipynb](model.ipynb) notebook to prepare the dataset and train the models.
+2. Upload your Kaggle API credentials (`kaggle.json`) to the working directory.
+3. Follow the instructions in the [model.ipynb](model.ipynb) notebook to prepare the dataset and train the models.
 
 ## Results
+
+### Training Metrics
+- The CNN model was trained for 30 epochs.
+- The binary classification model achieved a final accuracy of 99.71% on the training set and 95.12% validation accuracy.
+- Training and validation loss/accuracy are visualized to analyze overfitting or underfitting.
 
 ### Covid Model (Positive/Negative)
 | Metric       | Value |
 |--------------|-------|
-| Accuracy     | -     |
-| Val_Accuracy | -     |
+| Accuracy     | 99.71%|
+| Val_Accuracy | 95.12%|
 
-### Covid Model (Normal/Pneumonia/COVID)
-| Metric       | Value |
-|--------------|-------|
-| Accuracy     | -     |
-| Val_Accuracy | -     |
+### Visualization
+#### Loss
+![Training vs Validation Loss](images/loss_plot.png)
+
+#### Accuracy
+![Training vs Validation Accuracy](images/accuracy_plot.png)
 
 ## Contributing Members
 
